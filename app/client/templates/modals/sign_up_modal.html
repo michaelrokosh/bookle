@@ -1,0 +1,59 @@
+<template name="SignUpModal">
+  <div class="modal fade" id="sign-up" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+    <div class="modal-dialog modal-sm2">
+      <div class="modal-content">
+        <div class="modal-body">
+            <h3 class="text-center"><b>Реєстрація</b></h3>
+        </div>
+        <div class="modal-footer">
+          <form id="signUpForm" class="myform">
+              <div class="form-group">
+                  <div class=" controls">
+                      <input name="tel" placeholder="Номер телефону" class="form-control input-lg requiredField" type="tel" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-block">Далі</button>
+              </div>
+
+              <div class="form-group">
+                  <div class=" controls">
+                      <input name="number" placeholder="Код з смс, відправленого на ваш номер (777)" class="form-control input-lg requiredField" type="text" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-block">Далі</button>
+              </div>
+          
+              <div class="form-group">
+                  <div class="controls">
+                      <input name="first-name" placeholder="Ім'я" class="form-control input-lg requiredField" type="text" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="controls">
+                      <input name="last-name" placeholder="Прізвище" class="form-control input-lg requiredField" type="text" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="controls">
+                      <input name="email" placeholder="Email" class="form-control input-lg requiredField" type="email" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="controls">
+                      <input name="password" placeholder="Password" class="form-control input-lg requiredField" type="password" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-block">Далі</button>
+              </div>
+              <div class="form-group">
+                  <button type="submit" id="createAccount" class="btn btn-block">Зареєструватись</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
